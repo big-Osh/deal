@@ -1,0 +1,551 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.man-container{
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    margin: auto;
+    max-width: 1200px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: inline-flex;
+    list-style: none;
+}
+nav ul li {
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav .button-1{
+    padding: 10px 20px;
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+nav .button-1 a{
+    color: black;
+    text-decoration: none;
+}
+nav .button-2{
+    padding: 10px 20px;
+    background: rgb(80, 4, 151);
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+nav .button-2 a{
+    color: white;
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.reviews{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.reviews img{
+    width: 15px;
+}
+.reviews p{
+    margin-left: 10px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.row-1 h1{
+    font-size: 2.7em;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+.row-1 p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.row-1 .kono{
+    display: flex;
+    align-items: center;
+}
+.kono{
+    margin-bottom: 15px;
+}
+.row-1 .kono .trial{
+    padding: 10px 20px;
+    background-color: rgb(80, 4, 151);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.row-1 .kono .cr{
+    padding: 10px;
+    border: none;
+    color: rgb(80, 4, 151);
+    text-decoration: underline;
+    background: transparent;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.card{
+    display: flex;
+}
+.card div{
+    display: flex;
+}
+.card p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.card img{
+    width: 20px;
+}
+.card .img{
+    margin-left: 10px;
+}
+.row-2 img{
+   height: 500px;
+   width: 500px;
+}
+.button-tx{
+    display: none;
+}
+.ham{
+    display: none;
+}
+.times{
+    display: none;
+}
+
+
+
+
+
+.why{
+    color: rgb(80, 4, 151);
+    margin-bottom: 15px;
+}
+.whyy{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.threerow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.threerow h4{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.threerow p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.purple-bar{
+    background-color:rgb(80, 4, 151);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+.purple-text h1{
+    color: white;
+    font-size: 2.3em;
+    margin-bottom: 10px;
+}
+.purple-text p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+.purple-button{
+    color: rgb(80, 4, 151);
+    background-color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.shitpic{
+    height: 500px;
+    width: 600px;
+    background-size: contain;
+    padding-top: 50px;
+}
+.portfolio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+.duck{
+    border: 1px solid #ccc;
+    padding: 10px 30px 30px;
+    margin-top: 30px;
+}
+.duck p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.duck button{
+    width: 100%;
+    padding: 10px;
+    color: rgb(80, 4, 151);
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+.duckk{
+    display: flex;
+    align-items: center;
+}
+.duckk img{
+    width: 40px;
+    height: 40px;
+}
+.duckk div{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.duckk div p{
+    font-size: 13px;
+}
+.duck div h5{
+    color: rgb(80, 4, 151);
+    font-weight: bold;
+}
+.footer{
+    background-color: whitesmoke;
+    padding: 50px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.list div p{
+    line-height: 20px;
+}
+.list div h2{
+    margin-bottom: 10px;
+}
+.list div h3{
+    margin-bottom: 20px;
+}
+.list div ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+.love{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1024px){
+    .purple-text{
+        padding-top: 40px;
+    }
+}
+@media (max-width: 912px){
+    .row-2 img{
+        height: 400px;
+        width: 400px;
+     }
+     .reviews{
+        margin-bottom: 3px;
+    }
+    .purple-text{
+        padding-top: 40px;
+    }
+    .man-container{
+        background-color: whitesmoke;
+        height: 50vh;
+        width: 100%;
+    }
+}
+@media (max-width: 768px){
+    .man-container{
+        background-color: whitesmoke;
+        height: 100vh;
+        width: 100%;
+    }
+    nav ul{
+        position: fixed;
+        top: 0;
+        background: #333;
+        overflow: hidden;
+        display: block;
+        height: 100%;
+        width: 200px;
+        right: -200px;
+        padding-top: 50px;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        margin: 30px;
+        text-align: center;   
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .button-tx{
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+    .button-tx .sa{
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+        background: blueviolet;
+        border: none;
+        color: white;
+    }
+    .button{
+        display: none;
+    }
+    .ham{
+        display: block;
+    }
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .row:nth-child(1), .row:nth-child(2){
+        flex-direction: column-reverse;
+    }
+    .reviews{
+        display: none;
+    }
+    .card{
+        display: block;
+    }
+    .card p{
+        margin-top: 5px;
+    }
+    .card img{
+        width: 20px;
+    }
+    .card .img{
+        margin-left: 0px;
+    }
+    .kono{
+        display: block;
+    }
+    .row-1 .kono .trial{
+        width: 100%;
+    }
+    .row-1 .kono .cr{
+       width: 100%;
+    }
+    .times{
+        display: block;
+        font-size: 2em;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: white;
+    }
+    .purple-text{
+        padding-top: 40px;
+    }
+    .button-tx a{
+        color: white;
+        text-decoration: none;
+    }
+}
+@media (max-width: 480px){
+    .shitpic{
+        height: 400px;
+        width: 400px;
+        background-size: contain;
+        padding-top: 50px;
+    }
+    .man-container{
+        background-color: whitesmoke;
+        height: 100vh;
+        width: 100%;
+    }
+    .duck{
+        width: 100%;
+    }
+    .duck p br{
+        display: none;
+    }
+    
+}
+@media (max-width: 425px){
+    .man-container{
+        background-color: whitesmoke;
+        height: 110vh;
+        width: 100%;
+    }
+    .row-2 img{
+        height: 300px;
+        width: 300px;
+     }
+     .row-1 p br{
+        display: none;
+    }
+    .row-1 .kono{
+       display: block;
+    }
+    .row-1.kono .trial{
+        width: 100%;
+    }
+    .row-1 .kono .cr{
+       width: 100%;
+       margin-left: 0px;
+    }
+    .whyy br{
+        display: none;
+    }
+    .threerow p br{
+        display: none;
+    }
+    .shitpic{
+        height: 300px;
+        width: 300px;
+        background-size: contain;
+        padding-top: 50px;
+    }
+    .purple-bar{
+        background-color:rgb(80, 4, 151);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+    }
+    .purple-button{
+        width: 100%;
+    }
+    .purple-text{
+        padding-left: 30px;
+        padding-top: 30px;
+        padding-right: 30px;
+    }
+    .purple-text p br{
+        display: none;
+    }
+    .duck p br{
+        display: none;
+    }
+    .list{
+        display: block;
+    }
+    .love{
+        margin-bottom: 20px;
+    }
+    .list h3{
+        margin-top: 30px;
+    }
+    .list p br{
+        display: none;
+    }
+    .footer{
+        padding: 10px;
+    }
+}
+@media (max-width: 375px){
+    .man-container{
+        background-color: whitesmoke;
+        height: 120vh;
+        width: 100%;
+    }
+}
+@media (max-width: 360px){
+    .man-container{
+        background-color: whitesmoke;
+        height: 130vh;
+        width: 100%;
+    }
+}
+@media (max-width: 320px){
+    .man-container{
+        background-color: whitesmoke;
+        height: 160vh;
+        width: 100%;
+    }
+    .shitpic{
+        height: 200px;
+        width: 200px;
+        background-size: contain;
+        padding-top: 50px;
+    }
+}
+@media (max-width: 280px){
+    .man-container{
+        background-color: whitesmoke;
+        height: 100vh;
+        width: 100%;
+    }
+    .row-2 img{
+        height: 200px;
+        width: 200px;
+     }
+     .row-1 p br{
+        display: none;
+    }
+    .row-1 .kono{
+       display: block;
+    }
+    .row-1.kono .trial{
+        width: 100%;
+    }
+    .row-1 .kono .cr{
+       width: 100%;
+       margin-left: 0px;
+    }
+    .row-1 h1{
+        font-size: 2em;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+    .row-1 h1 br{
+        display: none;
+    }
+    .shitpic{
+        height: 200px;
+        width: 200px;
+        background-size: contain;
+        padding-top: 50px;
+    }
+}

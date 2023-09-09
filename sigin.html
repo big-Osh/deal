@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="container">
+       <div class="row">
+            <div class="row-1">
+                <div class="joe">
+                    <h4>Fiber</h4>
+                    <h1>Sign in to your Fiber account</h1>
+                    <form action="page.html" name="myform" onsubmit="return(validate())">
+                        <p>User Name</p>
+                        <input type="text" name="username" placeholder="eg.Bigoshh" id="set" class="input">
+                        <p>E-mail</p>
+                        <input type="email" placeholder="osh@gmail.com" required class="input">
+                        <p>Password</p>
+                        <div class="password">
+                            <input type="password" id="password" placeholder="At least 8 characters" required oninput="check()">
+                            <img src="Fiber Starter Files/Assets/hide password.svg" alt="" onclick="see()">
+                        </div>
+                        <button class="btn" type="submit">Sign in</button>
+                        <p class="end">Dont have an account? <span><a href="signup.html">Signup</a></span></p>
+                    </form>
+                </div>
+            </div>
+            <div class="row-2">
+                <div class="row-2-small">
+                   <div>
+                     <img src="Fiber Starter Files/Assets/Sign Up Image.png" alt="">
+                   </div>
+                   <div class="tem">
+                    <h1>Unparelleled Templates</h1>
+                    <p>Crafted by a team of professional designers, our <br>  plates are enparelleled in the market</p>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
